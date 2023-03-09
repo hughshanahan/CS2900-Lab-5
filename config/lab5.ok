@@ -1,0 +1,15 @@
+{
+    "name": "Lab5_Test",
+    "endpoint": "rhul/cs2900/sp22/lab5_test",
+    "src": [
+        "Lab5.ipynb"
+    ],
+    "tests": {
+        "tester/*.py": "ok_test"
+    },
+    "protocols": [
+        "file_contents",
+        "grading",
+        "scoring"
+    ]
+}
